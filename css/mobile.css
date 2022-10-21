@@ -30,4 +30,7 @@
   .container img {
     width: 100vw;
   }
+  td:first-child {
+  width: 100px;
+}
 }
