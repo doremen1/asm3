@@ -50,14 +50,16 @@ section > .container {
 #banner {
   background-repeat: no-repeat;
   height: 70vh;
-  width: 90vw;
+  width: 100
   margin: 0px auto;
   padding: 0;
   background-image:linear-gradient(
       rgba(34, 34, 34, 0.6),
       rgba(34, 34, 34, 0.6)
     ),
-    url(images/banner.jpg);
+    url(../images/banner.jpg);
+    background-position:center;
+    background-size:cover;
 }
 .banner-dsc {
   position: absolute;
